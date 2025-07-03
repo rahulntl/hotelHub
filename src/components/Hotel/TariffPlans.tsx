@@ -47,7 +47,7 @@ const TariffPlans: React.FC<TariffPlansProps> = ({ plans, hotelName }) => {
             <div className="text-center mb-6">
               <h3 className="text-xl font-bold text-gray-900 mb-2">{plan.name}</h3>
               <div className="text-3xl font-bold text-gray-900">
-                ${plan.price}
+                ₹{plan.price}
                 <span className="text-sm text-gray-500 font-normal">/{plan.period}</span>
               </div>
             </div>
