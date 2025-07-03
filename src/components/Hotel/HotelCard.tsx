@@ -76,8 +76,8 @@ const HotelCard: React.FC<HotelCardProps> = ({ hotel }) => {
         <div className="flex items-center justify-between">
           <div className="text-right">
             <p className="text-2xl font-bold text-gray-900">
-              ${hotel.priceRange.min}
-              <span className="text-sm text-gray-500 font-normal"> - ${hotel.priceRange.max}</span>
+              ₹{hotel.priceRange.min}
+              <span className="text-sm text-gray-500 font-normal"> - ₹{hotel.priceRange.max}</span>
             </p>
             <p className="text-sm text-gray-500">per night</p>
           </div>
