@@ -211,7 +211,7 @@ const AdminDashboard: React.FC = () => {
                     
                     <td className="px-6 py-4 whitespace-nowrap">
                       <div className="text-sm text-gray-900">
-                        ${hotel.priceRange.min} - ${hotel.priceRange.max}
+                        v{hotel.priceRange.min} - ₹{hotel.priceRange.max}
                       </div>
                     </td>
                     
