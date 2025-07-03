@@ -9,7 +9,7 @@ export const hotels: Hotel[] = [
     location: 'Cheena Baba, Nainital',
     rating: 4.8,
     priceRange: { min: 1500, max: 3500 },
-    amenities: ['Free WiFi', 'Restaurant', 'Gym', 'Room Service'],
+    amenities: ['Free WiFi', 'Restaurant', 'Room Service'],
     images: [
       'https://gos3.ibcdn.com/4fb501a4c7e911edbb3a0a58a9feac02.jpg',
     'https://r1imghtlak.mmtcdn.com/080fb9464a4f11ee9ee50a58a9feac02.jpg',
