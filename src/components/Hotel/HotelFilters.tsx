@@ -1,5 +1,5 @@
 import React from 'react';
-import { Search, Filter, Star, MapPin, DollarSign } from 'lucide-react';
+import { Search, Filter, Star, MapPin, IndianRupee } from 'lucide-react';
 
 interface HotelFiltersProps {
   searchTerm: string;
@@ -63,7 +63,7 @@ const HotelFilters: React.FC<HotelFiltersProps> = ({
         
         {/* Price Range */}
         <div className="relative">
-          <DollarSign className="h-5 w-5 text-gray-400 absolute left-3 top-3" />
+          <IndianRupee className="h-5 w-5 text-gray-400 absolute left-3 top-3" />
           <select
             value={`${priceRange[0]}-${priceRange[1]}`}
             onChange={(e) => {
