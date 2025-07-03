@@ -211,7 +211,7 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
             </div>
             <div className="border-t pt-2 flex justify-between font-semibold">
               <span>Total:</span>
-              <span>${totalPrice}</span>
+              <span>₹{totalPrice}</span>
             </div>
           </div>
         </div>
