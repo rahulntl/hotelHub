@@ -33,7 +33,7 @@ const Header: React.FC = () => {
             {isAuthenticated ? (
               <div className="flex items-center space-x-4">
                 
-                {user?.['https://hotelhub.com/roles']?.includes('admin') && (
+                {user?.['https://dev-hotelhub.us.auth0.com/roles']?.includes('admin') && (
                   <Link
                     to="/admin"
                     className="flex items-center space-x-1 text-gray-700 hover:text-blue-600 transition-colors"
