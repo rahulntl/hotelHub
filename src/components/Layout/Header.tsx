@@ -29,7 +29,6 @@ const Header: React.FC = () => {
               Contact
             </Link>
           </nav>
-{user}===
           <div className="flex items-center space-x-4">
             {isAuthenticated ? (
               <div className="flex items-center space-x-4">
