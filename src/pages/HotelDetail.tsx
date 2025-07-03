@@ -78,7 +78,7 @@ const HotelDetail: React.FC = () => {
               </div>
               <div className="text-right">
                 <div className="text-3xl font-bold text-gray-900">
-                  ${hotel.priceRange.min} - ${hotel.priceRange.max}
+                  ₹{hotel.priceRange.min} - ${hotel.priceRange.max}
                 </div>
                 <div className="text-gray-500">per night</div>
               </div>
