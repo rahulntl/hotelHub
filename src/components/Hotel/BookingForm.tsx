@@ -207,7 +207,7 @@ const BookingForm: React.FC<BookingFormProps> = ({ hotel }) => {
             </div>
             <div className="flex justify-between">
               <span>Rate:</span>
-              <span>${selectedPlan.price} per {selectedPlan.period}</span>
+              <span>₹{selectedPlan.price} per {selectedPlan.period}</span>
             </div>
             <div className="border-t pt-2 flex justify-between font-semibold">
               <span>Total:</span>
