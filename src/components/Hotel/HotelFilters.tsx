@@ -73,10 +73,10 @@ const HotelFilters: React.FC<HotelFiltersProps> = ({
             className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent appearance-none"
           >
             <option value="0-1000">All Prices</option>
-            <option value="0-200">Under $200</option>
-            <option value="200-400">$200 - $400</option>
-            <option value="400-600">$400 - $600</option>
-            <option value="600-1000">$600+</option>
+            <option value="0-1000">Under ₹1000</option>
+            <option value="1000-2000">₹1000 - ₹2000</option>
+            <option value="2000-3000">₹2000 - ₹3000</option>
+            <option value="3000-10000">₹3000+</option>
           </select>
         </div>
         
