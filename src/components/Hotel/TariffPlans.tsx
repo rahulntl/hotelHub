@@ -70,15 +70,7 @@ const TariffPlans: React.FC<TariffPlansProps> = ({ plans, hotelName }) => {
                 <span>Quick Inquiry</span>
               </button>
               
-              <button
-                className={`w-full py-2 px-4 rounded-lg font-semibold transition-all duration-200 ${
-                  plan.popular
-                    ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:from-blue-700 hover:to-purple-700 shadow-lg'
-                    : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
-                }`}
-              >
-                Select Plan
-              </button>
+              
             </div>
           </div>
         ))}
