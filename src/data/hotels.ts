@@ -3,13 +3,13 @@ import { Hotel } from '../types/hotel';
 export const hotels: Hotel[] = [
   {
     id: '1',
-    title: 'Grand Ocean Resort',
-    description: 'Experience luxury at its finest with our oceanfront resort featuring world-class amenities, pristine beaches, and exceptional service. Our resort offers an unforgettable escape with stunning ocean views, multiple dining options, and a full-service spa.',
-    shortDescription: 'Luxury oceanfront resort with world-class amenities',
-    location: 'Maldives',
+    title: 'Naini RR Residency',
+    description: 'Naini R.R. Residency is a budget-friendly hotel situated in the Mallital‑Sherwani area of Nainital, just behind the Employment Office and a short 10-minute walk from Naini Lake . It sits near the Cheena Baba Mandir, making it especially convenient if you’re visiting the temple and exploring the lakefront, For travelers seeking easy access to Naini Lake and Cheena Baba Mandir, with free parking and a central location, Naini R.R. Residency offers good value.',
+    shortDescription: 'Naini RR Residency with world-class amenities',
+    location: 'Cheena Baba, Nainital',
     rating: 4.8,
-    priceRange: { min: 299, max: 899 },
-    amenities: ['Free WiFi', 'Ocean View', 'Spa', 'Restaurant', 'Pool', 'Gym', 'Room Service', 'Concierge'],
+    priceRange: { min: 1500, max: 3500 },
+    amenities: ['Free WiFi', 'Restaurant', 'Gym', 'Room Service'],
     images: [
       'https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
@@ -17,33 +17,26 @@ export const hotels: Hotel[] = [
       'https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     ],
     contactDetails: {
-      phone: '+1 (555) 123-4567',
-      email: 'info@grandoceanresort.com',
-      address: '123 Ocean Drive, Maldives'
+      phone: '(+91) 8476023501',
+      email: 'maanandahotels@gmail.com',
+      address: 'Cheena Baba, Mallital, Nainital'
     },
     tariffPlans: [
       {
         id: '1',
-        name: 'Standard Ocean View',
-        price: 299,
+        name: '2 Bedroom',
+        price: 2500,
         period: 'night',
-        features: ['Ocean View', 'Free WiFi', 'Breakfast Included', 'Pool Access']
+        features: [ 'Free WiFi', 'Breakfast Included', 'Room Service']
       },
       {
         id: '2',
-        name: 'Premium Suite',
-        price: 549,
+        name: '4 Bedroom',
+        price: 3500,
         period: 'night',
-        features: ['Ocean View', 'Free WiFi', 'Breakfast Included', 'Pool Access', 'Spa Access', 'Butler Service'],
+        features: ['Free WiFi', 'Room Service', 'All Meals Included' ],
         popular: true
       },
-      {
-        id: '3',
-        name: 'Royal Villa',
-        price: 899,
-        period: 'night',
-        features: ['Ocean View', 'Free WiFi', 'All Meals Included', 'Private Pool', 'Spa Access', 'Butler Service', 'Airport Transfer']
-      }
     ],
     featured: true
   },
