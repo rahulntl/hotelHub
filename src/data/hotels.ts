@@ -42,13 +42,13 @@ export const hotels: Hotel[] = [
   },
   {
     id: '2',
-    title: 'Mountain Peak Lodge',
-    description: 'Nestled in the heart of the mountains, our lodge offers a perfect blend of rustic charm and modern comfort. Enjoy breathtaking mountain views, cozy fireplaces, and access to hiking trails right from your doorstep.',
+    title: 'Jagati Niwas',
+    description: 'If you are after a budget-friendly, central lakeside stay in Nainital with clean rooms, and friendly service, Jagati Niwas is an excellent pick.',
     shortDescription: 'Rustic mountain lodge with breathtaking views',
-    location: 'Swiss Alps',
+    location: 'Upper Mall Road',
     rating: 4.6,
-    priceRange: { min: 199, max: 499 },
-    amenities: ['Free WiFi', 'Mountain View', 'Fireplace', 'Restaurant', 'Ski Access', 'Hiking Trails', 'Spa'],
+    priceRange: { min: 2000, max: 4000 },
+    amenities: ['Free WiFi', 'Mountain View', 'Fireplace'],
     images: [
       'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       'https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
@@ -56,45 +56,45 @@ export const hotels: Hotel[] = [
       'https://images.pexels.com/photos/1134174/pexels-photo-1134174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     ],
     contactDetails: {
-      phone: '+41 (0) 123-456-789',
-      email: 'info@mountainpeaklodge.com',
-      address: '456 Alpine Road, Swiss Alps'
+      phone: '(+91) 8476023501',
+      email: 'maanandahotels@gmail.com',
+      address: 'Jagati Niwas, Mall Road Nainital'
     },
     tariffPlans: [
       {
         id: '1',
-        name: 'Cozy Mountain Room',
-        price: 199,
+        name: '2 Bedroom',
+        price: 2500,
         period: 'night',
-        features: ['Mountain View', 'Free WiFi', 'Breakfast Included', 'Fireplace']
+        features: ['Mountain View', 'Free WiFi','Fireplace']
       },
       {
         id: '2',
-        name: 'Alpine Suite',
-        price: 349,
+        name: '3 Bedroom',
+        price: 3000,
         period: 'night',
-        features: ['Mountain View', 'Free WiFi', 'Breakfast Included', 'Fireplace', 'Ski Equipment', 'Spa Access'],
+        features: ['Mountain View', 'Free WiFi', 'Fireplace'],
         popular: true
       },
       {
         id: '3',
-        name: 'Presidential Chalet',
-        price: 499,
+        name: '4 Bedroom',
+        price: 4000,
         period: 'night',
-        features: ['Mountain View', 'Free WiFi', 'All Meals Included', 'Private Fireplace', 'Ski Equipment', 'Spa Access', 'Guide Service']
+        features: ['Mountain View', 'Free WiFi', 'Guide Service', 'Fireplace']
       }
     ],
     featured: true
   },
   {
     id: '3',
-    title: 'City Center Plaza',
-    description: 'Located in the heart of downtown, our modern hotel offers easy access to shopping, dining, and entertainment. Perfect for business travelers and city explorers alike.',
+    title: 'KGN Guest House',
+    description: 'Situated on Nainital Road, Sherwani, approximately 1.8km from Nainital Lake and a 5-minute drive from the lakeside and Mall Road, Close to attractions like Cave Garden and High Court',
     shortDescription: 'Modern downtown hotel with city convenience',
-    location: 'New York City',
+    location: 'Sherwani Mallital, Nainital',
     rating: 4.4,
-    priceRange: { min: 149, max: 399 },
-    amenities: ['Free WiFi', 'Business Center', 'Gym', 'Restaurant', 'Bar', 'Room Service', 'Concierge'],
+    priceRange: { min: 800, max: 2500 },
+    amenities: ['Free WiFi', 'Room Service', 'Parking'],
     images: [
       'https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       'https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
@@ -102,45 +102,45 @@ export const hotels: Hotel[] = [
       'https://images.pexels.com/photos/271619/pexels-photo-271619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     ],
     contactDetails: {
-      phone: '+1 (555) 987-6543',
-      email: 'info@citycenterplaza.com',
-      address: '789 Broadway, New York, NY 10001'
+      phone: '(+91) 8476023501',
+      email: 'maanandahotels@gmail.com',
+      address: 'KGN Guest House, Mallital, Nainital'
     },
     tariffPlans: [
       {
         id: '1',
-        name: 'Standard City Room',
-        price: 149,
+        name: '2 Bedroom',
+        price: 1500,
         period: 'night',
-        features: ['City View', 'Free WiFi', 'Business Center Access', 'Gym Access']
+        features: ['City View', 'Free WiFi']
       },
       {
         id: '2',
-        name: 'Executive Suite',
-        price: 279,
+        name: '3 Bedroom',
+        price: 2000,
         period: 'night',
-        features: ['City View', 'Free WiFi', 'Business Center Access', 'Gym Access', 'Breakfast Included', 'Lounge Access'],
+        features: ['City View', 'Free WiFi'],
         popular: true
       },
       {
         id: '3',
-        name: 'Penthouse Suite',
-        price: 399,
+        name: '4 Bedroom',
+        price: 2500,
         period: 'night',
-        features: ['Panoramic City View', 'Free WiFi', 'Business Center Access', 'Gym Access', 'All Meals Included', 'Butler Service']
+        features: ['City View', 'Free WiFi'],
       }
     ],
     featured: false
   },
   {
     id: '4',
-    title: 'Tropical Paradise Resort',
-    description: 'Escape to paradise with our beachfront resort featuring crystal-clear waters, white sand beaches, and tropical gardens. Perfect for romantic getaways and family vacations.',
-    shortDescription: 'Beachfront paradise with tropical gardens',
-    location: 'Bali, Indonesia',
+    title: 'Baba Neem karoli Guest House',
+    description: 'A budget-friendly hotel in Nainital, located away from the city rush — ideal for both bachelors and families seeking a peaceful stay.',
+    shortDescription: 'A budget-friendly hotel in Nainital',
+    location: 'Mallital Nainital',
     rating: 4.9,
-    priceRange: { min: 229, max: 699 },
-    amenities: ['Free WiFi', 'Beach Access', 'Pool', 'Spa', 'Restaurant', 'Bar', 'Water Sports', 'Kids Club'],
+    priceRange: { min: 1200, max: 1500 },
+    amenities: ['Free WiFi', 'Parking'],
     images: [
       'https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       'https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
@@ -148,32 +148,18 @@ export const hotels: Hotel[] = [
       'https://images.pexels.com/photos/271619/pexels-photo-271619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     ],
     contactDetails: {
-      phone: '+62 (361) 123-4567',
-      email: 'info@tropicalparadise.com',
-      address: '321 Beach Road, Bali, Indonesia'
+      phone: '(+91) 8476023501',
+      email: 'maanandahotels@gmail.com',
+      address: 'Baba Neem karoli Guest House, Mallital, Nainital'
     },
     tariffPlans: [
       {
         id: '1',
-        name: 'Garden View Room',
-        price: 229,
+        name: '2 Bedroom',
+        price: 1500,
         period: 'night',
-        features: ['Garden View', 'Free WiFi', 'Beach Access', 'Pool Access', 'Breakfast Included']
-      },
-      {
-        id: '2',
-        name: 'Ocean View Suite',
-        price: 399,
-        period: 'night',
-        features: ['Ocean View', 'Free WiFi', 'Beach Access', 'Pool Access', 'Breakfast Included', 'Spa Access', 'Water Sports'],
+        features: ['Free WiFi', 'Parking'],
         popular: true
-      },
-      {
-        id: '3',
-        name: 'Beachfront Villa',
-        price: 699,
-        period: 'night',
-        features: ['Beachfront', 'Free WiFi', 'Private Beach Access', 'Private Pool', 'All Meals Included', 'Spa Access', 'Water Sports', 'Butler Service']
       }
     ],
     featured: true

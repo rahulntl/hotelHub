@@ -9,10 +9,10 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <Hotel className="h-8 w-8 text-blue-400" />
-              <span className="text-xl font-bold">HotelHub</span>
+              <span className="text-xl font-bold">MNGH</span>
             </div>
             <p className="text-gray-300">
-              Your premier destination for luxury accommodations worldwide. 
+              Your premier destination for luxury accommodations in Nainital. 
               Discover exceptional hotels and create unforgettable memories.
             </p>
             <div className="flex space-x-4">
@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p className="text-gray-400">© 2025 HotelHub. All rights reserved.</p>
+          <p className="text-gray-400">© 2025 Maa Nanda Group of Hotels. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -20,19 +20,19 @@ const Home: React.FC = () => {
       <div
         className="relative bg-cover bg-center h-96 flex items-center justify-center"
         style={{
-          backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)'
+          backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://maanandahotels.github.io/images/nainital.jpg)'
         }}
       >
         <div className="text-center text-white max-w-4xl mx-auto px-4">
           <h1 className="text-5xl md:text-6xl font-bold mb-4">
-            Find Your Perfect Stay
+            Find Your Perfect Stay in Nainital
           </h1>
           <p className="text-xl mb-8">
-            Discover exceptional hotels and create unforgettable memories
+            We are delighted to have you as our guest and thank you for choosing us for your stay in this serene paradise. Nestled amidst the breathtaking hills and overlooking the tranquil Naini Lake, our hotel is dedicated to making your visit a memorable one.
           </p>
           
           {/* Search Bar */}
-          <div className="bg-white rounded-xl p-6 shadow-lg max-w-2xl mx-auto">
+          {/*<div className="bg-white rounded-xl p-6 shadow-lg max-w-2xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
               <div className="relative">
                 <MapPin className="h-5 w-5 text-gray-400 absolute left-3 top-3" />
@@ -72,7 +72,7 @@ const Home: React.FC = () => {
             <button className="w-full mt-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-200 transform hover:scale-105">
               Search Hotels
             </button>
-          </div>
+          </div>*/}
         </div>
       </div>
 

@@ -6,7 +6,7 @@ import HotelFilters from '../components/Hotel/HotelFilters';
 const Hotels: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedLocation, setSelectedLocation] = useState('');
-  const [priceRange, setPriceRange] = useState<[number, number]>([0, 1000]);
+  const [priceRange, setPriceRange] = useState<[number, number]>([0, 10000]);
   const [minRating, setMinRating] = useState(0);
 
   const locations = Array.from(new Set(hotels.map(hotel => hotel.location)));
@@ -18,7 +18,7 @@ const Hotels: React.FC = () => {
     
     const matchesLocation = !selectedLocation || hotel.location === selectedLocation;
     
-    const matchesPrice = hotel.priceRange.min >= priceRange[0] && hotel.priceRange.max <= priceRange[1];
+    const matchesPrice = hotel.priceRange.min >= priceRange[0] || hotel.priceRange.max <= priceRange[1];
     
     const matchesRating = hotel.rating >= minRating;
     
