@@ -33,15 +33,7 @@ const Footer: React.FC = () => {
             </ul>
           </div>
           
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Services</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Hotel Booking</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Event Planning</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Concierge Services</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Travel Packages</a></li>
-            </ul>
-          </div>
+        
           
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
