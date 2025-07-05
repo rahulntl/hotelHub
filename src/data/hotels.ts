@@ -138,7 +138,7 @@ export const hotels: Hotel[] = [
         features: ['City View', 'Free WiFi'],
       }
     ],
-    featured: false
+    featured: true
   },
   {
     id: '4',
@@ -170,6 +170,6 @@ export const hotels: Hotel[] = [
         popular: true
       }
     ],
-    featured: true
+    featured: false
   }
 ];
