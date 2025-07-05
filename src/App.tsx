@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Auth0Provider } from '@auth0/auth0-react';
 import Header from './components/Layout/Header';
 import Footer from './components/Layout/Footer';
+import ScrollToTop from './components/Layout/ScrollToTop';
 import Home from './pages/Home';
 import Hotels from './pages/Hotels';
 import HotelDetail from './pages/HotelDetail';
@@ -24,6 +25,7 @@ function App() {
       }}
     >
       <Router>
+        <ScrollToTop />
         <div className="min-h-screen flex flex-col">
           <Header />
           <main className="flex-grow">
