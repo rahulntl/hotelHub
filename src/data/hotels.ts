@@ -105,7 +105,9 @@ export const hotels: Hotel[] = [
       'https://www.nainitalhotels.in/kgn-guest-house-1.jpeg',
       'https://www.nainitalhotels.in/kgn-guest-house-2.jpeg',
       'https://www.nainitalhotels.in/kgn-guest-house-3.jpeg',
-      'https://www.nainitalhotels.in/kgn-guest-house-4.jpeg'
+      'https://www.nainitalhotels.in/kgn-guest-house-4.jpeg',
+      'https://www.nainitalhotels.in/kgn-guest-house-6.jpeg',
+      'https://www.nainitalhotels.in/kgn-guest-house-6.jpeg'
     ],
     contactDetails: {
       phone: '(+91) 8476023501',
