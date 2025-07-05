@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <Hotel className="h-8 w-8 text-blue-400" />
-              <span className="text-xl font-bold">MNGH</span>
+              <span className="text-xl font-bold">Nainital Hotels</span>
             </div>
             <p className="text-gray-300">
               Your premier destination for luxury accommodations in Nainital. 
