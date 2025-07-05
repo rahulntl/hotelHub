@@ -12,7 +12,7 @@ export const hotels: Hotel[] = [
     amenities: ['Free WiFi', 'Restaurant', 'Room Service'],
     images: [
       'https://gos3.ibcdn.com/4fb501a4c7e911edbb3a0a58a9feac02.jpg',
-    'https://www.nainitalhotels.in/naini-r-r-residency-room1.jpeg',
+      'https://www.nainitalhotels.in/naini-r-r-residency-room1.jpeg',
       'https://www.nainitalhotels.in/naini-r-r-residency-room2.jpeg',
       'https://www.nainitalhotels.in/naini-r-r-residency-room3.jpeg',
       'https://www.nainitalhotels.in/naini-r-r-residency-room4.jpeg',
