@@ -20,11 +20,11 @@ const Home: React.FC = () => {
       <div
         className="relative bg-cover bg-center h-96 flex items-center justify-center"
         style={{
-          backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://maanandahotels.github.io/images/nainital.jpg)'
+          backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://www.nainitalhotels.in/nainital.jpg)'
         }}
       >
         <div className="text-center text-white max-w-4xl mx-auto px-4">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4">
+          <h1 className="text-5xl md:text-6xl font-bold mb-4 mt-4">
             Find Your Perfect Stay in Nainital
           </h1>
           <p className="text-xl mb-8">
