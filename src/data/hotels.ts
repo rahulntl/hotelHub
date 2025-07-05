@@ -150,7 +150,7 @@ export const hotels: Hotel[] = [
     priceRange: { min: 1200, max: 1500 },
     amenities: ['Free WiFi', 'Parking'],
     images: [
-      'https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      'https://www.nainitalhotels.in/nainital-hotel.jpeg',
     ],
     contactDetails: {
       phone: '(+91) 8476023501',
