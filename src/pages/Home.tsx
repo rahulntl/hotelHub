@@ -132,23 +132,7 @@ const Home: React.FC = () => {
       </div>
 
       {/* Newsletter */}
-      <div className="bg-gray-900 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Stay Updated</h2>
-          <p className="text-xl mb-8">Get the latest deals and travel tips delivered to your inbox</p>
-          
-          <div className="max-w-md mx-auto flex">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-3 rounded-l-lg text-gray-900 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-            />
-            <button className="bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-3 rounded-r-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-200">
-              Subscribe
-            </button>
-          </div>
-        </div>
-      </div>
+     
     </div>
   );
 };
