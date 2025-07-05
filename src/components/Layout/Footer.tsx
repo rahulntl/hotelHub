@@ -48,22 +48,25 @@ const Footer: React.FC = () => {
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-blue-400" />
-                <span className="text-gray-300">+1 (555) 123-4567</span>
+                <span className="text-gray-300">(+91) 9811207386</span>
+                <span className="text-gray-300">(+91) 8476023501</span>
+                <span className="text-gray-300">(+91) 9639619668</span>
+                <span className="text-gray-300">(+91) 8803688887</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-blue-400" />
-                <span className="text-gray-300">info@hotelhub.com</span>
+                <span className="text-gray-300">maanandahotels@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-blue-400" />
-                <span className="text-gray-300">123 Business Ave, Suite 100</span>
+                <span className="text-gray-300">Mallital Nainital</span>
               </div>
             </div>
           </div>
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p className="text-gray-400">© 2025 Maa Nanda Group of Hotels. All rights reserved.</p>
+          <p className="text-gray-400">© 2025 Nainital Hotels. All rights reserved.</p>
         </div>
       </div>
     </footer>
