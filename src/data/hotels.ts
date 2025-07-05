@@ -54,10 +54,12 @@ export const hotels: Hotel[] = [
     priceRange: { min: 2000, max: 4000 },
     amenities: ['Free WiFi', 'Mountain View', 'Fireplace'],
     images: [
-      'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/1134166/pexels-photo-1134166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/1134174/pexels-photo-1134174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      'https://www.nainitalhotels.in/jagati-niwas-1.jpeg',
+      'https://www.nainitalhotels.in/jagati-niwas-2.jpeg',
+      'https://www.nainitalhotels.in/jagati-niwas-3.jpeg',
+      'https://www.nainitalhotels.in/jagati-niwas-4.jpeg',
+      'https://www.nainitalhotels.in/jagati-niwas-5.jpeg',
+      'https://www.nainitalhotels.in/jagati-niwas-6.jpeg'
     ],
     contactDetails: {
       phone: '(+91) 8476023501',
