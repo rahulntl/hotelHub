@@ -12,9 +12,13 @@ export const hotels: Hotel[] = [
     amenities: ['Free WiFi', 'Restaurant', 'Room Service'],
     images: [
       'https://gos3.ibcdn.com/4fb501a4c7e911edbb3a0a58a9feac02.jpg',
-    'https://r1imghtlak.mmtcdn.com/080fb9464a4f11ee9ee50a58a9feac02.jpg',
-      'https://cf.bstatic.com/xdata/images/hotel/max1024x768/698420943.jpg?hp=1&k=693910f9fcb6e75fdc3812ecc5ce8fb4e7f746c2b7221362229b53291bceffbe&o=',
-      'https://cf.bstatic.com/xdata/images/hotel/max1024x768/698420943.jpg?hp=1&k=693910f9fcb6e75fdc3812ecc5ce8fb4e7f746c2b7221362229b53291bceffbe&o='
+    'https://www.nainitalhotels.in/naini-r-r-residency-room1.jpeg',
+      'https://www.nainitalhotels.in/naini-r-r-residency-room2.jpeg',
+      'https://www.nainitalhotels.in/naini-r-r-residency-room3.jpeg',
+      'https://www.nainitalhotels.in/naini-r-r-residency-room4.jpeg',
+      'https://www.nainitalhotels.in/naini-r-r-residency-room5.jpeg',
+      'https://www.nainitalhotels.in/naini-r-r-residency-room6.jpeg',
+      'https://www.nainitalhotels.in/naini-r-r-residency-room7.jpeg'
     ],
     contactDetails: {
       phone: '(+91) 8476023501',
