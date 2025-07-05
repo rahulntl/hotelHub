@@ -102,10 +102,10 @@ export const hotels: Hotel[] = [
     priceRange: { min: 800, max: 2500 },
     amenities: ['Free WiFi', 'Room Service', 'Parking'],
     images: [
-      'https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/271619/pexels-photo-271619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      'https://www.nainitalhotels.in/kgn-guest-house-1.jpeg',
+      'https://www.nainitalhotels.in/kgn-guest-house-2.jpeg',
+      'https://www.nainitalhotels.in/kgn-guest-house-3.jpeg',
+      'https://www.nainitalhotels.in/kgn-guest-house-4.jpeg'
     ],
     contactDetails: {
       phone: '(+91) 8476023501',
