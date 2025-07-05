@@ -22,12 +22,6 @@ const Header: React.FC = () => {
             <Link to="/hotels" className="text-gray-700 hover:text-blue-600 transition-colors">
               Hotels
             </Link>
-            <Link to="/about" className="text-gray-700 hover:text-blue-600 transition-colors">
-              About
-            </Link>
-            <Link to="/contact" className="text-gray-700 hover:text-blue-600 transition-colors">
-              Contact
-            </Link>
           </nav>
           <div className="flex items-center space-x-4">
             {isAuthenticated ? (
