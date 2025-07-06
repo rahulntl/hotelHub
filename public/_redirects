@@ -1,1 +1,7 @@
 /*    /index.html   200
+
+# SEO-friendly hotel redirects (old URLs to new URLs)
+/hotel/1    /hotel/naini_rr_residency    301
+/hotel/2    /hotel/jagati_niwas    301
+/hotel/3    /hotel/kgn_guest_house    301
+/hotel/4    /hotel/baba_neem_karoli_guest_house    301

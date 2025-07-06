@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Hotel } from '../../types/hotel';
+import { getHotelUrl } from '../../utils/urlHelpers';
 import { Star, MapPin, Wifi, Car, Utensils, Waves } from 'lucide-react';
 
 interface HotelCardProps {
@@ -83,7 +84,7 @@ const HotelCard: React.FC<HotelCardProps> = ({ hotel }) => {
           </div>
           
           <Link
-            to={`/hotel/${hotel.id}`}
+            to={getHotelUrl(hotel)}
             className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-200 transform hover:scale-105"
           >
             View Details

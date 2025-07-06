@@ -1,14 +1,15 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { hotels } from '../data/hotels';
+import { findHotelBySlug } from '../utils/urlHelpers';
 import ImageGallery from '../components/Hotel/ImageGallery';
 import TariffPlans from '../components/Hotel/TariffPlans';
 import BookingForm from '../components/Hotel/BookingForm';
 import { Star, MapPin, Phone, Mail, ArrowLeft, Wifi, Car, Utensils, Waves, Dumbbell, Space as Spa } from 'lucide-react';
 
 const HotelDetail: React.FC = () => {
-  const { id } = useParams<{ id: string }>();
-  const hotel = hotels.find(h => h.id === id);
+  const { slug } = useParams<{ slug: string }>();
+  const hotel = slug ? findHotelBySlug(hotels, slug) : null;
 
   if (!hotel) {
     return (
@@ -119,7 +120,7 @@ const HotelDetail: React.FC = () => {
 
             {/* Tariff Plans */}
             <div className="bg-white rounded-xl shadow-lg p-6">
-              <TariffPlans plans={hotel.tariffPlans} />
+              <TariffPlans plans={hotel.tariffPlans} hotelName={hotel.title} />
             </div>
           </div>
 
