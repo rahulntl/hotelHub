@@ -4,7 +4,7 @@ export const hotels: Hotel[] = [
   {
     id: '1',
     title: 'Naini RR Residency',
-    description: 'Naini R.R. Residency is a budget-friendly hotel situated in the Mallital‑Sherwani area of Nainital, just behind the Employment Office and a short 10-minute walk from Naini Lake . It sits near the Cheena Baba Mandir, making it especially convenient if you're visiting the temple and exploring the lakefront, For travelers seeking easy access to Naini Lake and Cheena Baba Mandir, with free parking and a central location, Naini R.R. Residency offers good value.',
+    description: 'Naini R.R. Residency is a budget-friendly hotel situated in the Mallital‑Sherwani area of Nainital, just behind the Employment Office and a short 10-minute walk from Naini Lake . It sits near the Cheena Baba Mandir, making it especially convenient if you\'re visiting the temple and exploring the lakefront, For travelers seeking easy access to Naini Lake and Cheena Baba Mandir, with free parking and a central location, Naini R.R. Residency offers good value.',
     shortDescription: 'Naini RR Residency with world-class amenities',
     location: 'Cheena Baba, Nainital',
     rating: 4.8,
